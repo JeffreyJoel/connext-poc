@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Sample Connext Bridge Proof of Concept
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+This project sends a greeting from a Contract deployed on Ethereum Sepolia to a Contract on Optimism Sepolia
+Source Contract Address on ETH-Sepolia:0xf1dD1b964784AeAe3D349e6B105ec6A45b3B577b
+Target Contract Address on OP-Sepolia: 0x994095eBc2d3fb60bFf11555026CFdb9922E93d2
